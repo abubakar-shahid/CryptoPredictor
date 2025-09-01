@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('./eth-5.png');
+    background-size: cover;
+}
+
+.main {
+    position: absolute;
+    top: 22px;
+    left: 80px;
+    z-index: 1;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px rgb(103, 101, 46);
+    background: rgb(219, 217, 146, 0.7);
+}
+
+.heading {
+    color: rgb(47, 47, 21);
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+}
+
+.date {
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: rgb(249, 247, 192);
+    background: rgb(62, 60, 25);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(125, 124, 76);
+}
+
+.predictionDetails {
+    padding: 0;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.pdLabel {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(47, 47, 21);
+}

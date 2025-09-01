@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Trade.css">
+    <title>Trade With Us</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="selectCurrency">
+            <form class="form1">
+                <label class="header1" for="check" aria-hidden="true">Select Currency</label>
+                <select name="currency" id="">
+                    <option value="ETH">ETH (Ethereum)</option>
+                    <option value="BTC">BTC (BitCoin)</option>
+                </select>
+                <input type="number" name="quantity" placeholder="Enter Quantity" required="">
+                <label class="total" for="check" aria-hidden="true">Total Amount: $ 0</label>
+            </form>
+        </div>
+        <div class="enterDetails">
+            <form action="" class="form2">
+                <label class="header2" for="check" aria-hidden="true">Credit Card Details</label>
+
+                <label for="" class="crLabel">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="XXXX XXXX XXXX XXXX" required="">
+
+                <br><label for="" class="crLabel">CVC</label>
+                <input type="text" id="cvc" name="cvc" placeholder="XXX" required="">
+
+                <br><label for="" class="crLabel">Expiry Date</label>
+                <input type="date" id="expiryDate" name="expiryDate" placeholder="" required="">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <button>Submit</button>
+    </footer>
+</body>
+
+</html>

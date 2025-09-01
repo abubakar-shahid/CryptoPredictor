@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('./background-2.png');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+}
+
+.credentials {
+    width: 30%;
+}
+
+.otherDetails {
+    width: 60%;
+}
+
+.credentials,
+.otherDetails {
+    margin: auto;
+    margin-top: 5%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px rgb(103, 101, 46);
+    background-color: rgb(219, 217, 146, 0.8);
+}
+
+.credentials {
+    margin-top: 1.5%;
+    height: 600px;
+}
+
+.credentials button:hover {
+    background: rgb(155, 153, 95);
+}
+
+.otherDetails button:hover {
+    background: rgb(155, 153, 95);
+}
+
+.header {
+    color: rgb(47, 47, 21);
+    font-size: 2.1em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    display: flex;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    color: #fff;
+    background: rgb(103, 101, 46);
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.crLabel,
+p {
+    color: rgb(47, 47, 21);
+    font-size: 1.3em;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
